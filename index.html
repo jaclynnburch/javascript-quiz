@@ -4,29 +4,29 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScript Quiz</title>
-    <link rel = "stylesheet" href="style.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <div class="container">
-        <h1> JavaScript Quiz</h1>
+        <h1>JavaScript Quiz</h1>
         <div id="quiz-container">
             <div id="quiz-info">
                 <button id="start-button">Start Quiz</button>
-                <p id="timer">Time: 00.60</p>
+                <p id="timer">Time: 60</p>
                 <p id="question"></p>
             </div>
-        <div id="options container"></div>
+            <div id="options-container"></div>
+        </div>
+        <div id="result-message"></div>
+        <div id="input-score" style="display: none;">
+            <input type="text" id="initials-input" placeholder="Enter your initials">
+            <button id="save-score-button" style="display: none;">Save Score</button>
+        </div>
+        <div id="high-score">
+            <h2>High Scores</h2>
+            <ul id="high-score-list"></ul>
+        </div>
     </div>
-<div id="result-message"></div>
-<div id="input-score" style="display: none;">
-<input type="text" id="initials-input" placeholder="Enter your initials">
-<button id="save-score-button" style="display: none;">Save Score</button>
-</div>
-<div id="high-score">
-    <h2>Hight Score</h2>
-    <ul id="high-score-list"></ul>
-</div>
-</div>
-<script src="script.js"></script>
+    <script src="script.js"></script>
 </body>
 </html>

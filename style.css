@@ -1,0 +1,23 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+  }
+  .container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  .question {
+    font-size: 18px;
+    font-weight: bold;
+  }
+  .options {
+    display: flex;
+    flex-direction: column;
+  }
+  .option {
+    margin: 5px 0;
+  }
+  #result {
+    margin-top: 10px;
+  }
